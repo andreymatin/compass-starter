@@ -28,6 +28,10 @@ body {
 	overflow: hidden;
 }
 
+main {
+	display: block;
+}
+
 a, 
 a:focus, 
 a:active {
@@ -38,7 +42,7 @@ ul, li {
 	list-style: none;
 }
 
-h1, h2, h3, h4, ul, li, p, form, dl, dd, dt {
+h1, h2, h3, h4, ul, li, p, form, figure, menu {
 	margin: 0;
 	padding: 0;
 }
