@@ -1,5 +1,6 @@
 @import "compass_twitter_bootstrap";
 @import "compass_twitter_bootstrap_responsive";
+@import "variables";
 
 /* Placeholder */
 @mixin input-placeholder($color) {
@@ -28,7 +29,7 @@ body {
 	overflow: hidden;
 }
 
-main {
+main, menu {
 	display: block;
 }
 
