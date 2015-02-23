@@ -1,11 +1,11 @@
 #!/bin/bash
- 
+
 type -P compass &>/dev/null || { echo "Compass command not found."; exit 1; }
 type -P coffee &>/dev/null || { echo "Coffee command not found."; exit 1; }
- 
+
 # Get current directory (project path)
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
- 
+
 SASS_DIR="$DIR/sass/"
 CSS_DIR="$DIR/stylesheets/"
 CS_DIR="$DIR/coffeescripts/"

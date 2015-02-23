@@ -1,17 +1,17 @@
 /* Placeholder */
 @mixin input-placeholder($color) {
 	&.placeholder {
-		color: $color; 
+		color: $color;
 	}
 	&:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-		color: $color; 
+		color: $color;
 	}
 	&::-moz-placeholder { /* Mozilla Firefox 19+ */
-		color: $color; 
+		color: $color;
 	}
 	&::-webkit-input-placeholder { /* WebKit browsers */
-		color: $color; 
-	} 
+		color: $color;
+	}
 	&:-ms-input-placeholder { /* Internet Explorer 10+ */
 		color: $color;
 	}
@@ -20,7 +20,7 @@
 $prefixes: ("-webkit-", "-moz-", "-o-", "");
 
 body {
-	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+	font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 	font-stretch: normal;
 	overflow: hidden;
 }
@@ -29,8 +29,8 @@ main, menu {
 	display: block;
 }
 
-a, 
-a:focus, 
+a,
+a:focus,
 a:active {
 	outline: none;
 }
