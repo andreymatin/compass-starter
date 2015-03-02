@@ -1,0 +1,32 @@
+{
+	"name": "compass-starter",
+	"version": "1.0.2",
+	"homepage": "https://github.com/andreymatin/compass-starter",
+	"author": {
+		"name": "Andrey Matin",
+		"web": "http://andreymatin.com"
+	},
+	"description": "Compass Starter with optimised SCSS/JS configs + Twitter Bootstrap",
+	"main": "index.html",
+	"keywords": [
+		"compass",
+		"twitter",
+		"bootstrap",
+		"html5",
+		"css3",
+		"font",
+		"awesome",
+		"less",
+		"starter"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andreymatin/compass-starter"
+	},
+	"licenses": [
+	{
+		"type": "MIT",
+		"url": "https://github.com/mateuszkocz/3l/blob/master/3L/LICENCES.md"
+		}
+	]
+}
